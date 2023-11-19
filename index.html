@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="We design and develop modern websites" />
+    <meta name="author" content="Hussein Kamal" />
+    <title>Arcadia</title>
+    <link rel="shortcut icon" href="A.jpg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Loading Screen -->
+    <div class="load">
+      <div>L</div>
+      <div>O</div>
+      <div>A</div>
+      <div>D</div>
+      <div>I</div>
+      <div>N</div>
+      <div>G</div>
+      <div>.</div>
+      <div>.</div>
+      <div>.</div>
+    </div>
+
+    <!-- Starting the body content -->
+    <main class="main__content" data-nav="Home" data-target="home">
+      <i class="fas fa-bars" id="btn"></i>
+      <div class="slide_bar">
+        <i class="fas fa-times" id="cancel"></i>
+        <ul class="nav__bar"></ul>
+      </div>
+      <header>
+        <p>We've got the special power</p>
+        <span class="line"></span>
+        <h1 class="typing">
+          <span class="typed_text"></span><span class="cursor">&nbsp;</span>
+        </h1>
+        <a href="#overview"><i class="fa fa-angle-down" id="scrollBtn"></i></a>
+      </header>
+    </main>
+
+    <section
+      id="overview"
+      class="main__content words"
+      data-nav="Overview"
+      data-target="overview"
+    >
+      <h2>Meet Us</h2>
+      <span></span>
+      <p>
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui
+        blanditiis praesentium voluptatum<br />deleniti atque corrupti quos
+        dolores et quas molestias excepturi sint occaecati cupiditate non<br />provident.
+      </p>
+      <a href="#services"
+        ><i
+          class="fa fa-angle-down"
+          id="scrollBtn"
+          style="transform: translateY(50px); color: var(--mainColor)"
+        ></i
+      ></a>
+    </section>
+
+    <section id="video">
+      <i class="fa fa-play"></i>
+    </section>
+
+    <section
+      id="services"
+      class="main__content words"
+      data-nav="Services"
+      style="margin-bottom: -30px"
+      data-target="services"
+    >
+      <h2>Services</h2>
+      <span></span>
+      <p>
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui
+        blanditiis praesentium voluptatum<br />deleniti atque corrupti quos
+        dolores et quas molestias excepturi sint occaecati cupiditate non<br />provident.
+      </p>
+    </section>
+
+    <section class="info">
+      <div class="information">
+        <i class="fa fa-book" aria-hidden="true"></i>
+        <h2>Branding</h2>
+        <p>
+          Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id
+          elit non mi porta gravida at eget metus. Nullam id dolor id nibh
+          ultricies vehicula ut id elit. At vero eos et accusamus et iusto odio
+          dignissimos ducimus qui blanditiis.
+        </p>
+      </div>
+      <div class="information">
+        <i class="fas fa-bicycle" aria-hidden="true"></i>
+        <h2>Web Development</h2>
+        <p>
+          Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu
+          leo. Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Accusamus et. At vero eos et accusamus et
+          iusto odio dignissimos ducimus qui blanditiis.
+        </p>
+      </div>
+      <div class="information">
+        <i class="fa fa-plug" aria-hidden="true"></i>
+        <!-- fa-3x مساحة الايكونة -->
+        <h2>App Design</h2>
+        <p>
+          Nulla vitae elit libero, a pharetra augue. At vero eos et accusamus et
+          iusto odio dignissimos ducimus. Aenean lacinia bibendum nulla sed
+          consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+          venenatis vestibulum.
+        </p>
+      </div>
+    </section>
+
+    <div class="alone__icon">
+      <a href="#lastProjects" class="btnAgain"
+        ><i
+          class="fa fa-angle-down"
+          id="scrollBtn"
+          style="transform: translateY(30px); color: var(--mainColor)"
+        ></i>
+      </a>
+    </div>
+
+    <div class="check">
+      <button>check our shop</button>
+    </div>
+
+    <section id="lastProjects" class="words">
+      <h2>Our Latest Projects</h2>
+      <span></span>
+      <p>
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui
+        blanditiis praesentium voluptatum<br />
+        deleniti atque corrupti quos dolores et quas molestias excepturi sint
+        occaecati cupiditate non<br />
+        provident.
+      </p>
+    </section>
+
+    <section
+      id="portfolio"
+      class="main__content"
+      data-nav="Portfolio"
+      data-target="portfolio"
+    >
+      <div class="port">
+        <div class="overlay">
+          <div class="some__info">
+            <p>Logo Design</p>
+            <h3>Client Seal</h3>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="port">
+        <div class="overlay">
+          <div class="some__info">
+            <p>Stationery</p>
+            <h3>Design Project</h3>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="port">
+        <div class="overlay">
+          <div class="some__info">
+            <p>Branding</p>
+            <h3>Metalbrand</h3>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="port">
+        <div class="overlay">
+          <div class="some__info">
+            <p>Business Card</p>
+            <h3>Clothing Line</h3>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="clean"></div>
+
+    <div class="check__two">
+      <button>check on dribbble</button>
+      <a href="#about__us" class="btnAgain__2" id="scrollBtn">
+        <i class="fa fa-angle-down"></i>
+      </a>
+    </div>
+
+    <div class="partnets">
+      <h2>Our Partnets</h2>
+      <span></span>
+      <div class="our__Partnets">
+        <div class="img__container">
+          <img src="img/clients/01.png" alt="" />
+        </div>
+        <div class="img__container">
+          <img src="img/clients/02.png" alt="" />
+        </div>
+        <div class="img__container">
+          <img src="img/clients/03.png" alt="" />
+        </div>
+        <div class="img__container">
+          <img src="img/clients/04.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <section
+      id="about__us"
+      class="main__content words"
+      data-nav="About Us"
+      data-target="about-us"
+    >
+      <h2>About Us</h2>
+      <span></span>
+      <p>
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui
+        blanditiis praesentium voluptatum<br />
+        deleniti atque corrupti quos dolores et quas molestias excepturi sint
+        occaecati cupiditate non<br />
+        provident.
+      </p>
+    </section>
+
+    <section class="team">
+      <div class="mentors">
+        <img src="img/team/02.jpg" alt="" />
+        <h3>Lian Gwapa</h3>
+        <h4>CEO/Founder</h4>
+        <span></span>
+      </div>
+      <div class="mentors">
+        <img src="img/team/04.jpg" alt="" />
+        <h3>Jenn Pereira</h3>
+        <h4>Web Coder</h4>
+        <span></span>
+      </div>
+      <div class="mentors">
+        <img src="img/team/03.jpg" alt="" />
+        <h3>Alan Podemski</h3>
+        <h4>Web Designer</h4>
+        <span></span>
+      </div>
+      <div class="mentors">
+        <h3 style="text-align: center; color: var(--mainColor)">
+          We Are Hiring!
+        </h3>
+        <span></span>
+        <a href="#"><i class="fa fa-paper-plane-o"></i></a>
+      </div>
+    </section>
+
+    <div class="alone__icon">
+      <a href="#contact__us" class="btnAgain"
+        ><i
+          class="fa fa-angle-down"
+          id="scrollBtn"
+          style="transform: translateY(50px); color: var(--mainColor)"
+        ></i>
+      </a>
+    </div>
+
+    <div class="clean__again"></div>
+
+    <section class="slider">
+      <h2>What my Clients Say...</h2>
+      <span></span>
+      <div class="slides__container">
+        <div class="slider__bar">
+          <h5>
+            Et iusto odio dignissimos ducimus qui blanditiis praesentium <br />
+            voluptatum deleniti atque corrupti quos dolores et quas molestias<br />
+            excepturi sint occaecati cupiditate non provident.
+          </h5>
+          <p>LJ, Abc Company</p>
+        </div>
+        <div class="slider__bar">
+          <h5>
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris <br />
+            condimentum. Duis mollis, est non commodo luctus, nisi erat
+          </h5>
+          <p>Kai, Web Geekster</p>
+        </div>
+        <div class="slider__bar">
+          <h5>
+            Cras justo odio, dapibus ac facilisis in, egestas <br />eget quam.
+            Donec id elit non mi porta gravida at eget metus.
+          </h5>
+          <p>Jenn, Coders' Playground</p>
+        </div>
+      </div>
+      <div class="navigation__dots"></div>
+    </section>
+
+    <section
+      id="contact__us"
+      class="main__content footer"
+      data-nav="Contact Us"
+      data-target="contact-us"
+    >
+      <h2>Contact Us</h2>
+      <span></span>
+      <form>
+        <i class="fa fa-map-marker myIcon"></i>
+        <h3>Address</h3>
+        <p>
+          ThemeForces.Com Igbalangao, Bugasong, Anitque 5704, Philippines Phone:
+          (123) 456-7890
+        </p>
+        <ul>
+          <li><a href="#" class="fa fa-facebook"></a></li>
+          <li><a href="#" class="fa fa-google"></a></li>
+          <li><a href="#" class="fa fa-twitter"></a></li>
+          <li><a href="#" class="fa fa-dribbble"></a></li>
+        </ul>
+        <input type="name" name="" id="" placeholder="Your Name" required />
+        <input type="email" name="" id="" placeholder="Email" required />
+        <input type="tel" name="" id="" placeholder="Phone No." required />
+        <input type="subject" name="" id="" placeholder="Subject" required />
+        <textarea
+          name=""
+          id=""
+          placeholder="Message"
+          cols="0"
+          rows="0"
+        ></textarea>
+        <div class="submit">
+          <button type="submit" id="btnForm" formtarget="_black">Send</button>
+        </div>
+      </form>
+      <!-- Footer -->
+      <footer>
+        <h4>
+          2021 &copy; Coded & Designed by <i class="fa fa-heart"></i><br />
+          <abbr title="Tel: 01150868489">Hussein Kamal</abbr>. All Rights
+          Reserved.
+        </h4>
+        <p id="toTop">Back To Top <i class="fa fa-angle-up myArrow"></i></p>
+      </footer>
+    </section>
+    <!-- Ending the body content -->
+  </body>
+</html>
